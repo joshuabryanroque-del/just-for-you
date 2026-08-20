@@ -176,27 +176,42 @@
         }
 
         // ─── ENTRY BUTTON ────────────────────────────
-       // ─── MUSIC ───────────────────────────────────
+     // ─── MUSIC ───────────────────────────────────
 let bgMusic = null;
 
-if (s.music?.enabled && s.music?.file) {
-    bgMusic = new Audio(s.music.file);
+if (s.music && s.music.enabled && s.music.file) {
+    bgMusic = new Audio();
+    bgMusic.src = s.music.file;
     bgMusic.loop = true;
     bgMusic.volume = s.music.volume ?? 0.3;
     bgMusic.preload = 'auto';
+
+    console.log("🎵 Music file:", bgMusic.src);
+
+    bgMusic.addEventListener('canplaythrough', function() {
+        console.log("✅ Music file loaded successfully");
+    });
+
+    bgMusic.addEventListener('error', function(e) {
+        console.error("❌ MUSIC ERROR:", e);
+        console.error("Tried to load:", bgMusic.src);
+    });
 }
 
 // ─── ENTRY BUTTON ────────────────────────────
 if (enterBtn) {
     enterBtn.addEventListener('click', function() {
 
-        // Start music after the user's interaction
+        console.log("🖱️ Entry button clicked");
+
         if (bgMusic) {
-            bgMusic.play().then(function() {
-                console.log('🎵 Music started');
-            }).catch(function(error) {
-                console.log('⚠️ Music could not start:', error);
-            });
+            bgMusic.play()
+                .then(function() {
+                    console.log("🎵 MUSIC IS PLAYING");
+                })
+                .catch(function(error) {
+                    console.error("❌ MUSIC PLAY FAILED:", error);
+                });
         }
 
         showSceneByIndex(1);
