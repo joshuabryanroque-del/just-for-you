@@ -176,11 +176,32 @@
         }
 
         // ─── ENTRY BUTTON ────────────────────────────
-        if (enterBtn) {
-            enterBtn.addEventListener('click', function() {
-                showSceneByIndex(1);
+       // ─── MUSIC ───────────────────────────────────
+let bgMusic = null;
+
+if (s.music?.enabled && s.music?.file) {
+    bgMusic = new Audio(s.music.file);
+    bgMusic.loop = true;
+    bgMusic.volume = s.music.volume ?? 0.3;
+    bgMusic.preload = 'auto';
+}
+
+// ─── ENTRY BUTTON ────────────────────────────
+if (enterBtn) {
+    enterBtn.addEventListener('click', function() {
+
+        // Start music after the user's interaction
+        if (bgMusic) {
+            bgMusic.play().then(function() {
+                console.log('🎵 Music started');
+            }).catch(function(error) {
+                console.log('⚠️ Music could not start:', error);
             });
         }
+
+        showSceneByIndex(1);
+    });
+}
 
         // ─── QUESTION BUTTONS ────────────────────────
         const yesBtn = $('yesBtn');
