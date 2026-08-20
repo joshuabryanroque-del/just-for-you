@@ -87,21 +87,17 @@ Every conversation with you makes my day better.
 
 And no matter how many times we talk, I still find myself missing you the moment we say goodbye.
 
-I miss your voice, your presence, your little “good morning” and “good night.”
+I miss your voice, your presence, your little good morning and good night.
 
 I just wish I could reach through the screen, hold you close, and tell you how much I love you.
 
-Until then,
+Until then
 
-I’ll keep loving you from here, counting the days until “I miss you” becomes “I’m finally with you.” 🥺❤️
+I’ll keep loving you from here, counting the days until I miss you becomes Im finally with you. 🥺❤️
 
-Slowly.
-Honestly.
-Together.
+— Loreine`,
 
-— Loreine,
-
-    // ── THE QUESTION ──────────────────────────────
+   
     question: "Would you want to date me and give me a chance to know me better?",
 
     // ── IF SHE SAYS YES ──────────────────────────
@@ -113,7 +109,7 @@ Together.
         line5: "— Loreine"
     },
 
-    // ── IF SHE NEEDS TIME ─────────────────────────
+   
     maybe: {
         line1: "That's completely okay.",
         line2: "We can take our time.",
@@ -122,13 +118,13 @@ Together.
         buttonText: "Keep going"
     },
 
-    // ── MUSIC (optional) ──────────────────────────
+   
     music: {
         enabled: false,
         file: "assets/music/your-song.mp3",
         volume: 0.3
     },
 
-    // ── HIDDEN SECRET ─────────────────────────────
+    
     secret: "Okay, one more thing... I really do love and like talking to you. — Loreine"
 };
