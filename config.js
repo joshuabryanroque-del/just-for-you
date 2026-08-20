@@ -81,20 +81,18 @@ window.story = {
     // ── YOUR LETTER ───────────────────────────────
     letter: `Bub,
 
-Through everything we've been through, I've realized something I never want to forget: you taught me what happiness really feels like.
+Through everything we've been through, you taught me what happiness really feels like.
 
-It wasn't always perfect. We've had our fights, our misunderstandings, and moments when we hurt each other. But even through those difficult times, there were so many moments with you that made me genuinely happy, and those are the moments I want to hold on to.
+We've had our fights, misunderstandings, and moments where we hurt each other. But despite all of that, I still cherish the happiness and love we've shared.
 
-I hope that someday, we can forgive each other—not just for the things we've done, but for the moments when we failed to understand each other. I hope we can learn from everything we've been through and become better for each other.
+I hope we can forgive each other, learn from our mistakes, and find a more peaceful way to love and understand each other.
 
-I don't want a relationship without problems. I want a relationship where, when problems come, we choose to face them together instead of letting them tear us apart. I hope we can learn how to communicate better, understand each other more, and find a more peaceful way to love each other.
+I still believe things can be fixed when two people are willing to fight for each other—not against each other.
 
-Because I still believe that things can be fixed when two people are willing to fight for them the right way—not by fighting against each other, but by fighting together for what they have.
+And if you're willing, I still want to choose us. I want to grow with you, learn with you, and find our way back to happiness.
 
-And if you're willing, I still want to choose us.
-
-I still want to grow with you, learn with you, and find our way back to the happiness we once shared.
 I love you, Bub.
+
 — Bry`,
 
    
@@ -104,7 +102,7 @@ I love you, Bub.
     yes: {
     line1: "Then...",
     line2: "let's start again, but this time, let's do it better.",
-    line3: "Thank you for still choosing us, Anja.",
+    line3: "Thank you for still choosing us, Bub.",
     line4: "Let's learn from everything we've been through, forgive each other, and slowly rebuild what we have.",
     line5: "I don't expect everything to be perfect. I just want us to keep choosing each other and finding a better way to love each other.",
     line6: "One step at a time. Together.",
@@ -126,7 +124,7 @@ I love you, Bub.
    
     music: {
         enabled: false,
-        file: "assets/music/your-song.mp3",
+        file: "assets/music/Kyle_Raphael_-Libu-Libong_Buwan_Uuwian(mp3.pm).mp3",
         volume: 0.3
     },
 
