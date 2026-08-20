@@ -5,25 +5,25 @@ window.story = {
 
     // ── WHO IS THIS FOR? ──────────────────────────
     person: {
-        name: "Anjanette"
+        name: "Xia"
     },
 
     // ── WHO ARE YOU? ──────────────────────────────
     creator: {
-        name: "Loreine",
+        name: "Bry",
         country: "PH"
     },
 
     // ── HOW YOU CONNECTED ─────────────────────────
     connection: {
         platform: "Audition Next Gen",
-        month: "June 1, 2026",
+        month: "Nov 18, 2025",
         otherCountry: "PH"
     },
 
     // ── OPENING SCREEN ────────────────────────────
     opening: {
-        line1: "Hey, Anja.",
+        line1: "Hey, Bub.",
         line2: "I made something for you.",
         line3: "Not because I had to. I just wanted to.",
         buttonText: "See what's inside"
@@ -31,94 +31,97 @@ window.story = {
 
     // ── HOW IT STARTED ────────────────────────────
     howItStarted: {
-        title: "A little unexpected...",
-        date: "June 2026",
-        line1: "Two people. Two countries. One random conversation on Audition Next Gen.",
-        line2: "I was looking for fc. You were doing AFK.",
-        line3: "I didn't expect that conversation to stay in my head."
+        title: "Something I never expected...",
+        date: "November 2025",
+        line1: "Two people, miles apart, brought together by one simple conversation on Facebook.",
+        line2: "I was going through a difficult time, and somehow, you were there when I needed someone.",
+        line3: "I never thought that one little conversation would mean so much to me, or that I'd still be thinking about it long after it ended."
     },
 
     // ── KEPT TALKING ──────────────────────────────
     keptTalking: {
         title: "Then we kept talking on Messenger.",
-        line1: "Every single day, without fail.",
-        line2: "Knowing each other.",
-        line3: "I’m trying to find myself while you’re busy taking care of your kids.",
-        line4: "But somehow, I still find myself thinking about you."
+        line1: "Day after day, our conversations slowly became something I looked forward to.",
+        line2: "We started learning more about each other, little by little.",
+        line3: "I was still trying to find my way, while you were busy taking care of your kids and everything life asked of you.",
+        line4: "And somehow, in the middle of all that, I found myself thinking about you more and more."
     },
 
     // ── THE HONEST PART ───────────────────────────
     honestPart: {
-        title: "And that's the funny part.",
+        title: "And maybe that's what makes it special.",
         lines: [
             "We’ve actually met in person before, but I can’t remember.",
             "I don't have a hundred photos of us.",
             "We don't have a favorite place together.",
             "We don't have memories from some perfect date.",
             "We just have conversations.",
-            "Little moments.",
-            "And somehow, they started meaning something to me."
+            "The little moments we shared, even from miles away.",
+            "And somehow, those simple moments became something I genuinely treasure."
         ]
     },
 
     // ── SMALL CONFESSION ──────────────────────────
     confession: {
-        line1: "Happy 2nd month of our love...",
-        line2: "...you’ve already become such a beautiful part of my life.",
-        line3: "Every call, every message, every little “I miss you” makes the distance feel a little smaller...",
-        line4: "I like talking to you more than I probably should."
+        line1: "In our 9 months of being in a relationship...",
+        line2: "...Maybe it all started with something as simple as meeting in a game, and maybe it doesn't seem like much to you, but to me, it became something incredibly meaningful.",
+        line3: "Every call, every message, every little “I love you” made the distance between us feel a little smaller....",
+        line4: "And if I'm being completely honest... I don't think I'll ever get tired of talking to you, because somehow, talking to you became one of my favorite parts of every day."
     },
 
     // ── DISTANCE ──────────────────────────────────
     distance: {
-        line1: "PH",
-        line2: "Malaysia",
-        line3: "Two countries. Busy lives. A surprisingly nice conversation.",
-        line4: "I don't know where this goes.",
-        line5: "Maybe that's what makes it exciting."
+        line1: "Cavite",
+        line2: "Laguna",
+        line3: "Two places. Two busy lives. One love trying to find its way.",
+        line4: "Maybe along the way, we misunderstood each other and got lost in everything happening around us.",
+        line5: "But even with the distance and everything we've been through, I still believe what we have is worth choosing, worth understanding, and worth fighting for."
     },
 
     // ── YOUR LETTER ───────────────────────────────
-    letter: `Loreine,
+    letter: `Bub,
 
-Every moment with you is special.
+Through everything we've been through, I've realized something I never want to forget: you taught me what happiness really feels like.
 
-Every conversation with you makes my day better.
+It wasn't always perfect. We've had our fights, our misunderstandings, and moments when we hurt each other. But even through those difficult times, there were so many moments with you that made me genuinely happy, and those are the moments I want to hold on to.
 
-And no matter how many times we talk, I still find myself missing you the moment we say goodbye.
+I hope that someday, we can forgive each other—not just for the things we've done, but for the moments when we failed to understand each other. I hope we can learn from everything we've been through and become better for each other.
 
-I miss your voice, your presence, your little good morning and good night.
+I don't want a relationship without problems. I want a relationship where, when problems come, we choose to face them together instead of letting them tear us apart. I hope we can learn how to communicate better, understand each other more, and find a more peaceful way to love each other.
 
-I just wish I could reach through the screen, hold you close, and tell you how much I love you.
+Because I still believe that things can be fixed when two people are willing to fight for them the right way—not by fighting against each other, but by fighting together for what they have.
 
-Until then
+And if you're willing, I still want to choose us.
 
-I’ll keep loving you from here, counting the days until I miss you becomes Im finally with you. 🥺❤️
-Slowly.
-Honestly.
-Together.
-— Loreine`,
+I still want to grow with you, learn with you, and find our way back to the happiness we once shared.
+I love you, Bub.
+— Bry`,
 
    
-    question: "Would you want to date me and give me a chance to know me better?",
+    question: "After everything we've been through, do you think we can still find our way back to each other and choose us again?",
 
     // ── IF SHE SAYS YES ──────────────────────────
     yes: {
-        line1: "Then...",
-        line2: "I guess this little story has officially become our story.",
-        line3: "I'm really happy, Anja.",
-        line4: "Let's see where this takes us.",
-        line5: "— Loreine"
-    },
+    line1: "Then...",
+    line2: "let's start again, but this time, let's do it better.",
+    line3: "Thank you for still choosing us, Anja.",
+    line4: "Let's learn from everything we've been through, forgive each other, and slowly rebuild what we have.",
+    line5: "I don't expect everything to be perfect. I just want us to keep choosing each other and finding a better way to love each other.",
+    line6: "One step at a time. Together.",
+    line7: "— Bry"
+},
 
    
     maybe: {
-        line1: "That's completely okay.",
-        line2: "We can take our time.",
-        line3: "No pressure at all.",
-        line4: "I just wanted you to know how I feel.",
-        buttonText: "Keep going"
-    },
+    line1: "I understand, Bub.",
+    line2: "I know I can't force your heart to choose something it's not ready for.",
+    line3: "But I hope you know that everything I said came from a genuine place in my heart.",
+    line4: "I still believe that what we had was real, and that the things that hurt us can be learned from and healed with time.",
+    line5: "If someday you're willing to talk, understand each other, and try again, I'll be here.",
+    line6: "For now, I'll respect your feelings and give you the space you need.",
+    line7: "I just hope this isn't where our story has to end.",
+    line8: "— Bry"
+},
 
    
     music: {
@@ -128,5 +131,5 @@ Together.
     },
 
     
-    secret: "Okay, one more thing... I really do love and like talking to you. — Loreine"
+    secret: "Okay, one more thing... Even after all the fights, misunderstandings, and everything we've been through, I still love talking to you. I still miss you, I still care about you, and a part of me still hopes we can find our way back to each other. — Bry"
 };
