@@ -122,8 +122,8 @@ I love you, Bub.
 
    
     music: {
-        enabled: false,
-        file: "assets/music/Kyle_Raphael_-Libu-Libong_Buwan_Uuwian(mp3.pm).mp3",
+        enabled: true,
+        file: "assets/music/libu-libong-buwan.mp3",
         volume: 0.3
     },
 
