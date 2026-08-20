@@ -94,7 +94,9 @@ I just wish I could reach through the screen, hold you close, and tell you how m
 Until then
 
 I’ll keep loving you from here, counting the days until I miss you becomes Im finally with you. 🥺❤️
-
+Slowly.
+Honestly.
+Together.
 — Loreine`,
 
    
