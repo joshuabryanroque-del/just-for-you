@@ -121,11 +121,11 @@ I love you, Bub.
 },
 
    
-    music: {
-        enabled: true,
-        file: "assets/music/libu-libong-buwan.mp3",
-        volume: 0.3
-    },
+  music: {
+    enabled: true,
+    file: "assets/music/libu-libong-buwan.mp3",
+    volume: 0.3
+},
 
     
     secret: "Okay, one more thing... Even after all the fights, misunderstandings, and everything we've been through, I still love talking to you. I still miss you, I still care about you, and a part of me still hopes we can find our way back to each other. — Bry"
