@@ -51,7 +51,6 @@ window.story = {
     honestPart: {
         title: "And maybe that's what makes it special.",
         lines: [
-            "We’ve actually met in person before, but I can’t remember.",
             "I don't have a hundred photos of us.",
             "We don't have a favorite place together.",
             "We don't have memories from some perfect date.",
