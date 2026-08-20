@@ -247,7 +247,7 @@
     <!-- OPENING -->
     <section id="sceneOpening" class="scene active">
         <div style="max-width: 600px;">
-            <p class="text-hero font-heading gap-xs" id="openingLine1">Hey, Duyen.</p>
+            <p class="text-hero font-heading gap-xs" id="openingLine1">Hey, Bub</p>
             <p class="text-body gap-lg" id="openingLine2">I made something for you.</p>
             <p class="text-small gap-xl" id="openingLine3">Not because I had to. I just wanted to.</p>
             <button id="enterBtn" class="btn-primary">See what's inside</button>
@@ -330,10 +330,6 @@
     <!-- QUESTION -->
     <section id="sceneQuestion" class="scene">
         <div style="max-width: 500px; text-align: center;">
-            <p class="text-body gap-sm" style="font-style: italic;">So, Duyen...</p>
-            <p class="text-body gap-sm">I know we don't talk that often,</p>
-            <p class="text-body gap-sm">and we've never met in person.</p>
-            <p class="text-body gap-md">But somehow, I still find myself thinking about you sometimes.</p>
             <p class="text-body gap-lg">So I have one simple question...</p>
             <p class="text-question font-heading gap-xl" id="questionText">Would you want to give us a chance to become more than friends?</p>
             <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
@@ -376,7 +372,24 @@
     <!-- SECRET -->
     <button id="secretTrigger" style="position:fixed;top:1.5rem;right:1.5rem;width:32px;height:32px;border-radius:50%;background:transparent;border:1px solid rgba(255,255,255,0.08);cursor:pointer;opacity:0.25;z-index:50;font-size:0.8rem;color:var(--text-muted);transition:opacity 0.4s;" aria-label="Secret">+</button>
 
-    <script src="config.js"></script>
-    <script src="script.js"></script>
+  <audio id="bgMusic" loop preload="auto">
+    <source src="assets/music/Kyle_Raphael_-Libu-Libong_Buwan_Uuwian(mp3.pm).mp3" type="audio/mpeg">
+</audio>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+<script>
+    const bgMusic = document.getElementById("bgMusic");
+    const enterBtn = document.getElementById("enterBtn");
+
+    bgMusic.volume = 0.4;
+
+    enterBtn.addEventListener("click", () => {
+        bgMusic.play().catch(error => {
+            console.log("Music could not play:", error);
+        });
+    });
+</script>
 </body>
 </html>
